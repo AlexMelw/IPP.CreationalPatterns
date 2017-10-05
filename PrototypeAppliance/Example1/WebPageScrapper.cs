@@ -1,4 +1,5 @@
-﻿namespace PrototypeAppliance {
+﻿namespace PrototypeAppliance
+{
     using System;
     using System.Net;
 

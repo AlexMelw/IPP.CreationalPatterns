@@ -1,4 +1,5 @@
-﻿namespace PrototypeAppliance {
+﻿namespace PrototypeAppliance
+{
     class ParsingResult
     {
         public string Title { get; set; }
@@ -11,7 +12,8 @@
         {
             Title = "Universitatea Tehnică a Moldovei";
             HeaderTagCount = 3;
-            FirstHeaderTagContents = "Universitatea Tehnică a Moldovei (UTM). Admiterea, prezentare facultăți, informații pentru studenți.";
+            FirstHeaderTagContents =
+                "Universitatea Tehnică a Moldovei (UTM). Admiterea, prezentare facultăți, informații pentru studenți.";
         }
 
         #endregion
