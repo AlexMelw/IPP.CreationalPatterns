@@ -1,0 +1,12 @@
+﻿<?xml version='1.0'
+      encoding='utf-8'?>
+
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)"
+              GeneratedClassNamespace="CombinedAbstractFactorySingleton" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IThemeFactory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CombinedAbstractFactorySingleton.Factories.DarkThemeFactory</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

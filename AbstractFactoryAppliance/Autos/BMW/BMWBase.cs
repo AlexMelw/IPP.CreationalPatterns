@@ -6,15 +6,8 @@ namespace AbstractFactoryAppliance.Autos.BMW
     {
         public abstract string Name { get; }
 
-        public void TurnOn()
-        {
-            Console.WriteLine("The " + Name + " is on and running.");
-        }
+        public void TurnOn() => Console.WriteLine($"The {Name} is on and running.");
 
-        public void TurnOff()
-        {
-            Console.WriteLine("The " + Name + " is off.");
-        }
-
+        public void TurnOff() => Console.WriteLine($"The {Name} is off.");
     }
 }

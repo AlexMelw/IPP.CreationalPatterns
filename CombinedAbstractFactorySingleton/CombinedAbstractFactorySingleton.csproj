@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9233FCB3-7B8B-424F-9BC1-474943FFCD5E}</ProjectGuid>
+    <ProjectGuid>{769FABC6-0025-45D0-9889-0DEDAFD2E4FC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractFactoryAppliance</RootNamespace>
-    <AssemblyName>AbstractFactoryAppliance</AssemblyName>
+    <RootNamespace>CombinedAbstractFactorySingleton</RootNamespace>
+    <AssemblyName>CombinedAbstractFactorySingleton</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,15 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Autos\BMW\BMW328i.cs" />
-    <Compile Include="Autos\BMW\BMW740i.cs" />
-    <Compile Include="Autos\BMW\BMWBase.cs" />
-    <Compile Include="Autos\BMW\BMWM3.cs" />
-    <Compile Include="Autos\IAutomobile.cs" />
-    <Compile Include="Autos\Mini\MiniCooper.cs" />
-    <Compile Include="Factory\BMWFactory.cs" />
-    <Compile Include="Factory\IAutoFactory.cs" />
-    <Compile Include="Factory\MiniCooperFactory.cs" />
+    <Compile Include="Factories\DarkThemeFactory.cs" />
+    <Compile Include="Factories\LightThemeFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings.Designer.cs">
@@ -65,6 +58,9 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

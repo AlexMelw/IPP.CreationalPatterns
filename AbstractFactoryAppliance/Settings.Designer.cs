@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AbstractFactoryAppliance.Properties {
+namespace AbstractFactoryAppliance {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -25,7 +25,7 @@ namespace AbstractFactoryAppliance.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Factory4.Factory.BMWFactory")]
+        [global::System.Configuration.DefaultSettingValueAttribute("AbstractFactoryAppliance.Factory.BMWFactory")]
         public string AutoFactory {
             get {
                 return ((string)(this["AutoFactory"]));

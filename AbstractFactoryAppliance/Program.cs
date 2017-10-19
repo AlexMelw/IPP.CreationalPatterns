@@ -30,14 +30,13 @@ namespace AbstractFactoryAppliance
 
         static IAutoFactory LoadFactory()
         {
-            string factoryName = Properties.Settings.Default.AutoFactory;
+            string factoryName = Settings.Default.AutoFactory;
             return Assembly.GetExecutingAssembly().CreateInstance(factoryName) as IAutoFactory;
         }
 
         static void PrintHeader(string title)
         {
-            Console.WriteLine();
-            Console.WriteLine("++++++++++++++++ {0} ++++++++++++++++++", title);
+            Console.WriteLine($"\n++++++++++++++++ {title} ++++++++++++++++++");
         }
     }
 }
