@@ -1,6 +1,8 @@
 ﻿namespace CombinedAbstractFactorySingleton.Factories
 {
     using System;
+    using GUIElements;
+    using Interfaces;
 
     class DarkThemeFactory : IThemeFactory
     {

@@ -42,10 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUIElements\CheckBox.cs" />
+    <Compile Include="GUIElements\Control.cs" />
+    <Compile Include="GUIElements\DarkCheckBox.cs" />
+    <Compile Include="GUIElements\DarkRadioButton.cs" />
     <Compile Include="Factories\DarkThemeFactory.cs" />
     <Compile Include="Factories\LightThemeFactory.cs" />
+    <Compile Include="Interfaces\IThemeFactory.cs" />
+    <Compile Include="GUIElements\LightCheckBox.cs" />
+    <Compile Include="GUIElements\LightRadioButton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GUIElements\RadioButton.cs" />
     <Compile Include="Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -59,8 +67,6 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
