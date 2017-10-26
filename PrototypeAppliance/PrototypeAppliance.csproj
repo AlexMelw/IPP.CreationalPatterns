@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="UML\ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NClone">

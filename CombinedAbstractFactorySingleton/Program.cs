@@ -1,7 +1,6 @@
 ﻿namespace CombinedAbstractFactorySingleton
 {
     using System;
-    using System.Reflection;
     using GUIElements;
     using Interfaces;
 

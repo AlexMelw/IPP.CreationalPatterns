@@ -2,6 +2,6 @@
 {
     class LinkedInUser
     {
-        // Stub
+        public string Stub { get; set; }
     }
 }

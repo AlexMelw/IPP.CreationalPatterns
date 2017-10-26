@@ -1,4 +1,5 @@
-﻿namespace CombinedAbstractFactorySingleton.GUIElements {
+﻿namespace CombinedAbstractFactorySingleton.GUIElements
+{
     abstract class CheckBox : Control
     {
         public bool Flag { get; protected set; }

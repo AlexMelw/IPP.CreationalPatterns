@@ -1,4 +1,5 @@
-﻿namespace CombinedAbstractFactorySingleton.GUIElements {
+﻿namespace CombinedAbstractFactorySingleton.GUIElements
+{
     using System;
 
     class LightCheckBox : CheckBox
